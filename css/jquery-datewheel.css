@@ -1,0 +1,61 @@
+.datewheel {
+  background-color: #FF8D0E;
+  padding: 10px;
+  
+  max-width: 250px;
+
+  -moz-border-radius: 10px;
+  border-radius: 10px;  
+  
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;  
+}
+
+.dwsel {
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #ff02;
+}
+
+.dwstrip {
+  position: relative;
+  overflow: visible;
+}
+
+.datewheel>div {
+  overflow: hidden;
+  margin: 5px 0px 5px 0px;
+  padding: 5px 0px 5px 0px;
+  background-color: #7F582D;
+}
+
+.datewheel>span {
+  float: left;
+  padding: 5px;
+  font-size: 150%;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  min-width: 30px;
+}
+
+.datewheel .dwstrip span {
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+
+  width: 40px;
+  
+  -moz-border-radius: 5px;
+  border-radius: 5px;  
+}
+
+.datewheel .dwstrip span:first-child {
+  background-color: #FFB15A;
+}
+
